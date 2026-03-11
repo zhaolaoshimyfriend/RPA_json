@@ -1,4 +1,28 @@
 {
-  "_fieldRemarks": {},
-  "workflowSpec": {}
+  "_fieldRemarks": {
+    "seqNo": "编号",
+    "stepId": "子任务id",
+    "stepName": "子任务名称",
+    "dependsOn": "依赖子任务（子任务id列表，本步骤执行前需先完成所列任务）"
+  },
+  "workflowSpec": [
+    {
+      "seqNo": "1",
+      "stepId": "invoiceSelection",
+      "stepName": "发票勾选",
+      "dependsOn": []
+    },
+    {
+      "seqNo": "2",
+      "stepId": "statisticsConfirm",
+      "stepName": "统计确认",
+      "dependsOn": ["invoiceSelection"]
+    },
+    {
+      "seqNo": "3",
+      "stepId": "vatGeneralTaxDeclaration",
+      "stepName": "纳税申报-增值税-一般纳税人",
+      "dependsOn": ["invoiceSelection", "statisticsConfirm"]
+    }
+  ]
 }

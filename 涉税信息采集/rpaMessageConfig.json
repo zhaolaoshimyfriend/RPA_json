@@ -1,0 +1,455 @@
+{
+  "loginInfo": {
+    "_fieldRemarks": {
+      "areaCode": "网报区编码",
+      "entrancePlatform": "登录平台：0-电子税务局",
+      "loginPlatform": "目标页面：0-电子税务局首页",
+      "loginType": "登录方式：1-代理登录",
+      "agentTaxNo": "代理登录方式时，此字段为登录需要输入的代理机构账号",
+      "userAccount": "代理登录方式时，此字段为登录需要输入的账号",
+      "loginPassword": "代理登录方式时，此字段为登录需要输入的密码",
+      "loginIdentity": "登录身份：01-法定代表人，02-财务负责人，03-办税员，04-税务代理人（涉税服务人员），05-管理员，06-出口退税人员，07-领票人，08-社保经办人，09-开票员，10-销售人员，31-行政办事员，99-其他人员",
+      "companyName": "被代理企业名称",
+      "companyTaxNo": "被代理企业税号"
+    },
+    "loginInfo": {
+      "areaCode": "210000",
+      "entrancePlatform": "0",
+      "loginPlatform": "0",
+      "loginType": "1",
+      "agentTaxNo": "11111111111111111",
+      "userAccount": "22222222",
+      "loginPassword": "3333333",
+      "loginIdentity": "04",
+      "companyName": "企业名称",
+      "companyTaxNo": "企业名称"
+    }
+  },
+  "taxInfoCollection": {
+    "_fieldRemarks": {
+      "basicInfo": {
+        "taxpayerName": "纳税人名称",
+        "unifiedSocialCreditCode": "统一社会信用代码",
+        "taxpayerStatus": "纳税人状态",
+        "taxRegistrationDate": "税务登记日期",
+        "registrationType": "登记注册类型",
+        "organizationCode": "组织机构代码",
+        "industry": "行业",
+        "taxCreditRating": "纳税信用评定等级",
+        "evaluationYear": "评价年度",
+        "establishmentDate": "开业（设立）日期",
+        "vatEnterpriseType": "增值税企业类型",
+        "isExportTaxRebateEnterprise": "是否出口退税企业",
+        "isThousandGroup": "是否千户集团",
+        "applicableAccountingSystem": "适用会计制度",
+        "depositAccount": "存款账户",
+        "competentTaxAuthority": "主管税务机关",
+        "competentTaxAuthorityBranch": "主管税务机关科所分局",
+        "enterpriseFlag": "企业标志",
+        "isCrossRegionPropertyTaxRegistrant": "跨区域财产税登记主体标志"
+      },
+      "registrationBusinessInfo": {
+        "registeredAddress": "注册地址",
+        "registeredPhone": "注册地联系电话",
+        "registeredPostalCode": "注册地邮政编码",
+        "businessAddress": "生产经营地址",
+        "businessPhone": "生产经营地联系电话",
+        "businessPostalCode": "生产经营地邮政编码"
+      },
+      "enterpriseOperationInfo": {
+        "registeredCapital": "注册资本",
+        "totalInvestment": "投资总额",
+        "accountingMethod": "核算方式",
+        "numberOfEmployees": "从业人数",
+        "foreignEmployees": "外籍从业人数",
+        "numberOfPartners": "合伙人数",
+        "numberOfHiredWorkers": "雇工人数",
+        "numberOfPermanentWorkers": "固定工人数",
+        "businessScope": "经营范围"
+      },
+      "legalRepresentativeRelatedEnterprises": {
+        "taxpayerName": "纳税人名称",
+        "taxpayerId": "纳税人识别号",
+        "competentTaxAuthority": "主管税务机关",
+        "taxpayerStatus": "纳税人状态",
+        "taxRegistrationDate": "税务登记日期"
+      },
+      "personnelInfo": {
+        "legalRepresentative": {
+          "name": "法定代表人姓名",
+          "idType": "证件种类",
+          "idNumber": "证件号码",
+          "fixedPhone": "固定电话",
+          "mobilePhone": "移动电话",
+          "email": "电子邮箱"
+        },
+        "financialOfficer": {
+          "name": "财务负责人姓名",
+          "idType": "证件种类",
+          "idNumber": "证件号码",
+          "fixedPhone": "固定电话",
+          "mobilePhone": "移动电话",
+          "email": "电子邮箱"
+        },
+        "taxAgent": {
+          "name": "办税人员姓名",
+          "idType": "证件种类",
+          "idNumber": "证件号码",
+          "fixedPhone": "固定电话",
+          "mobilePhone": "移动电话",
+          "email": "电子邮箱"
+        }
+      },
+      "investorInfo": {
+        "totalInvestment": "投资总额",
+        "currency": "币种",
+        "currencyAmount": "币种金额",
+        "investors": {
+          "investorName": "投资方名称",
+          "economicNature": "投资方经济性质",
+          "investmentRatio": "投资比例（%）",
+          "idType": "证件种类",
+          "idNumber": "证件号码",
+          "nationality": "国籍",
+          "address": "地址"
+        }
+      },
+      "headquartersBranchInfo": {
+        "headquartersBranchType": "总分机构类型"
+      },
+      "taxCategoryIdentificationInfo": {
+        "serialNumber": "序号",
+        "taxCategory": "征收项目",
+        "taxItem": "征收品目",
+        "taxSubitem": "征收子目",
+        "taxPeriod": "纳税期限",
+        "filingDeadline": "申报期限",
+        "levyRate": "征收率",
+        "taxRateOrUnitAmount": "税率或单位税额",
+        "mainOrAttachedTaxFlag": "主附税标志",
+        "collectionAgentMethod": "征收代理方式"
+      },
+      "qualificationInfo": {
+        "serialNumber": "序号",
+        "taxpayerQualificationType": "纳税人资格类型",
+        "validFrom": "有效期起",
+        "validTo": "有效期止",
+        "voidFlag": "作废标志",
+        "dataTerminationDate": "数据终止日期"
+      },
+      "assessmentInfo": {
+        "enterpriseIncomeTax": {
+          "serialNumber": "序号",
+          "validPeriodFrom": "核定期限起",
+          "validPeriodTo": "核定期限止",
+          "actualImplementationEndDate": "实际执行期止",
+          "collectionMethod": "征收方式",
+          "taxableIncomeRate": "应税所得率",
+          "annualAssessedTaxableIncome": "年核定应纳税所得额",
+          "annualAssessedIncomeTax": "年核定所得税额",
+          "enterpriseIncomeTaxPrepaymentPeriod": "企业所得税预缴期限"
+        },
+        "stampTax": {
+          "serialNumber": "序号",
+          "taxCategory": "征收项目",
+          "taxItem": "征收品目",
+          "assessmentType": "核定类型",
+          "assessmentPeriodFrom": "核定执行期起",
+          "assessmentPeriodTo": "核定期限止",
+          "actualImplementationEndDate": "实际执行期止",
+          "assessmentDate": "核定日期",
+          "assessedBasis": "核定计税依据",
+          "assessmentRatio": "核定比例"
+        },
+        "periodicFixedQuota": {
+          "taxCategory": "征收项目",
+          "taxItem": "征收品目",
+          "taxableBusinessAmount": "应纳税经营额",
+          "taxRate": "税率",
+          "assessedTaxAmount": "核定税额",
+          "belowThresholdFlag": "未达起征点标志",
+          "assessmentPeriodFrom": "核定执行期起",
+          "assessmentPeriodTo": "核定期限止",
+          "latestAssessmentFlag": "最新核定标志"
+        }
+      },
+      "isSmallMicroProfitEnterprisePreviousYear": "上一年度为小型微利企业或者可视同小型微利企业"
+    },
+    "basicInfo": {
+      "taxpayerName": "山东朗特莱克商贸有限公司",
+      "unifiedSocialCreditCode": "91370202MA3CFT2T43",
+      "taxpayerStatus": "正常",
+      "taxRegistrationDate": "2016-09-01",
+      "registrationType": "其他有限责任公司",
+      "organizationCode": "MA3CFT2T4",
+      "industry": "其他机械设备及电子产品批发",
+      "taxCreditRating": "B",
+      "evaluationYear": 2024,
+      "establishmentDate": "2016-08-25",
+      "vatEnterpriseType": "流通型",
+      "isExportTaxRebateEnterprise": "否",
+      "isThousandGroup": "否",
+      "applicableAccountingSystem": "小企业会计准则",
+      "depositAccount": "37150198590100000093",
+      "competentTaxAuthority": "市北区税务局",
+      "competentTaxAuthorityBranch": "青岛市市北区税务局税源管理三科",
+      "enterpriseFlag": "居民企业",
+      "isCrossRegionPropertyTaxRegistrant": "否"
+    },
+    "registrationBusinessInfo": {
+      "registeredAddress": "青岛市市北区黑龙江南路2号万科中心C座15层1524室",
+      "registeredPhone": "13361295818",
+      "registeredPostalCode": "266000",
+      "businessAddress": "青岛市市北区黑龙江南路2号万科中心C座15层1524室",
+      "businessPhone": "13361295818",
+      "businessPostalCode": "266000"
+    },
+    "enterpriseOperationInfo": {
+      "registeredCapital": "3000000（人民币元）",
+      "totalInvestment": "3000000（人民币元）",
+      "accountingMethod": "独立核算自负盈亏",
+      "numberOfEmployees": "2",
+      "foreignEmployees": "0",
+      "numberOfPartners": "0",
+      "numberOfHiredWorkers": "0",
+      "numberOfPermanentWorkers": "0",
+      "businessScope": "批发：日用百货、办公用品、五金交电、通信器材（不含无线电发射及卫星地面接收设施）、建筑材料、计算机及配件、针纺织品、电子产品、仪器仪表、电子元器件、塑料制品、机电设备及配件、金属材料（不含稀贵金属）、化妆品、洗涤用品（不含危险品）、橡胶制品、工艺品、一类医疗器械、二类医疗器械（依据备案凭证开展经营活动）；三类医疗器械依据《医疗器械经营许可证》开展经营活动；计算机软件开发；综合布线；企业形象策划；会务服务；展示展览服务；医疗器械维修及技术咨询；健康信息咨询（不含医疗、诊疗）；货物及技术进出口。（依法须经批准的项目，经相关部门批准后方可开展经营活动）"
+    },
+    "legalRepresentativeRelatedEnterprises": [
+      {
+        "taxpayerName": "青岛朗特莱克物流有限公司",
+        "taxpayerId": "91370202MA3N7K8L1P",
+        "competentTaxAuthority": "市北区税务局",
+        "taxpayerStatus": "正常",
+        "taxRegistrationDate": "2018-05-10"
+      },
+      {
+        "taxpayerName": "青岛朗特莱克咨询有限公司",
+        "taxpayerId": "91370202MA3R9T2X4Q",
+        "competentTaxAuthority": "市南区税务局",
+        "taxpayerStatus": "正常",
+        "taxRegistrationDate": "2020-03-22"
+      }
+    ],
+    "personnelInfo": {
+      "legalRepresentative": {
+        "name": "周晶",
+        "idType": "居民身份证",
+        "idNumber": "230204*******049",
+        "fixedPhone": "80****80",
+        "mobilePhone": "185****0302",
+        "email": ""
+      },
+      "financialOfficer": {
+        "name": "周晶",
+        "idType": "居民身份证",
+        "idNumber": "230204*******049",
+        "fixedPhone": "133****4996",
+        "mobilePhone": "177****0713",
+        "email": ""
+      },
+      "taxAgent": {
+        "name": "刘倩",
+        "idType": "居民身份证",
+        "idNumber": "230204*******020",
+        "fixedPhone": "",
+        "mobilePhone": "177****0713",
+        "email": ""
+      }
+    },
+    "investorInfo": {
+      "totalInvestment": "6000000",
+      "currency": "人民币元",
+      "currencyAmount": "6000000",
+      "investors": [
+        {
+          "investorName": "青岛朗特莱克控股有限公司",
+          "economicNature": "其他有限责任公司",
+          "investmentRatio": "100",
+          "idType": "统一社会信用代码",
+          "idNumber": "91370202MA3X9Y7Z5W",
+          "nationality": "中国",
+          "address": "青岛市市北区黑龙江南路2号万科中心C座"
+        }
+      ]
+    },
+    "headquartersBranchInfo": {
+      "headquartersBranchType": "非总分机构"
+    },
+    "taxCategoryIdentificationInfo": [
+      {
+        "serialNumber": "1",
+        "taxCategory": "增值税",
+        "taxItem": "会议展览服务",
+        "taxSubitem": "",
+        "taxPeriod": "月",
+        "filingDeadline": "期满之日起15日内",
+        "levyRate": "0.03",
+        "taxRateOrUnitAmount": "0.06",
+        "mainOrAttachedTaxFlag": "主税",
+        "collectionAgentMethod": "自行申报"
+      },
+      {
+        "serialNumber": "2",
+        "taxCategory": "地方教育附加",
+        "taxItem": "增值税地方教育附加",
+        "taxSubitem": "",
+        "taxPeriod": "月",
+        "filingDeadline": "期满之日起15日内",
+        "levyRate": "0",
+        "taxRateOrUnitAmount": "0.02",
+        "mainOrAttachedTaxFlag": "增值税附税",
+        "collectionAgentMethod": "自行申报"
+      },
+      {
+        "serialNumber": "3",
+        "taxCategory": "教育费附加",
+        "taxItem": "增值税教育费附加",
+        "taxSubitem": "",
+        "taxPeriod": "月",
+        "filingDeadline": "期满之日起15日内",
+        "levyRate": "0",
+        "taxRateOrUnitAmount": "0.03",
+        "mainOrAttachedTaxFlag": "增值税附税",
+        "collectionAgentMethod": "自行申报"
+      },
+      {
+        "serialNumber": "4",
+        "taxCategory": "城市维护建设税",
+        "taxItem": "市区（增值税附征)",
+        "taxSubitem": "",
+        "taxPeriod": "月",
+        "filingDeadline": "期满之日起15日内",
+        "levyRate": "0",
+        "taxRateOrUnitAmount": "0.07",
+        "mainOrAttachedTaxFlag": "增值税附税",
+        "collectionAgentMethod": "自行申报"
+      },
+      {
+        "serialNumber": "5",
+        "taxCategory": "增值税",
+        "taxItem": "商业(17%、16%、13%)",
+        "taxSubitem": "",
+        "taxPeriod": "月",
+        "filingDeadline": "期满之日起15日内",
+        "levyRate": "0.03",
+        "taxRateOrUnitAmount": "0.13",
+        "mainOrAttachedTaxFlag": "主税",
+        "collectionAgentMethod": "自行申报"
+      },
+      {
+        "serialNumber": "6",
+        "taxCategory": "增值税",
+        "taxItem": "软件服务",
+        "taxSubitem": "",
+        "taxPeriod": "月",
+        "filingDeadline": "期满之日起15日内",
+        "levyRate": "0.03",
+        "taxRateOrUnitAmount": "0.06",
+        "mainOrAttachedTaxFlag": "主税",
+        "collectionAgentMethod": "自行申报"
+      },
+      {
+        "serialNumber": "7",
+        "taxCategory": "印花税",
+        "taxItem": "买卖合同",
+        "taxSubitem": "",
+        "taxPeriod": "季",
+        "filingDeadline": "期满之日起15日内",
+        "levyRate": "0",
+        "taxRateOrUnitAmount": "0.0003",
+        "mainOrAttachedTaxFlag": "主税",
+        "collectionAgentMethod": "自行申报"
+      },
+      {
+        "serialNumber": "8",
+        "taxCategory": "残疾人就业保障金",
+        "taxItem": "残疾人就业保障金",
+        "taxSubitem": "",
+        "taxPeriod": "年",
+        "filingDeadline": "次年10月31日",
+        "levyRate": "0",
+        "taxRateOrUnitAmount": "1",
+        "mainOrAttachedTaxFlag": "主税",
+        "collectionAgentMethod": "自行申报"
+      },
+      {
+        "serialNumber": "9",
+        "taxCategory": "个人所得税",
+        "taxItem": "工资薪金所得",
+        "taxSubitem": "",
+        "taxPeriod": "月",
+        "filingDeadline": "期满之日起15日内",
+        "levyRate": "0",
+        "taxRateOrUnitAmount": "0",
+        "mainOrAttachedTaxFlag": "主税",
+        "collectionAgentMethod": "代扣代缴"
+      },
+      {
+        "serialNumber": "10",
+        "taxCategory": "企业所得税",
+        "taxItem": "应纳税所得额",
+        "taxSubitem": "",
+        "taxPeriod": "",
+        "filingDeadline": "期满之日起15",
+        "levyRate": "0",
+        "taxRateOrUnitAmount": "0.25",
+        "mainOrAttachedTaxFlag": "主税",
+        "collectionAgentMethod": "自行申报"
+      }
+    ],
+    "qualificationInfo": [
+      {
+        "serialNumber": "1",
+        "taxpayerQualificationType": "增值税一般纳税人",
+        "validFrom": "2023-05-01",
+        "validTo": "9999-12-31",
+        "voidFlag": "未作废",
+        "dataTerminationDate": "9999-12-31"
+      }
+    ],
+    "assessmentInfo": {
+      "enterpriseIncomeTax": [
+        {
+          "serialNumber": "1",
+          "validPeriodFrom": "2023-01-01",
+          "validPeriodTo": "2023-12-31",
+          "actualImplementationEndDate": "2023-12-31",
+          "collectionMethod": "核定征收",
+          "taxableIncomeRate": "0.08",
+          "annualAssessedTaxableIncome": "500000.00",
+          "annualAssessedIncomeTax": "125000.00",
+          "enterpriseIncomeTaxPrepaymentPeriod": "按季"
+        }
+      ],
+      "stampTax": [
+        {
+          "serialNumber": "1",
+          "taxCategory": "印花税",
+          "taxItem": "购销合同",
+          "assessmentType": "定期定额",
+          "assessmentPeriodFrom": "2023-01-01",
+          "assessmentPeriodTo": "2023-12-31",
+          "actualImplementationEndDate": "2023-12-31",
+          "assessmentDate": "2023-01-10",
+          "assessedBasis": "1000000.00",
+          "assessmentRatio": "0.0003"
+        }
+      ],
+      "periodicFixedQuota": [
+        {
+          "taxCategory": "增值税",
+          "taxItem": "商业(17%、16%、13%)",
+          "taxableBusinessAmount": "50000.00",
+          "taxRate": "0.03",
+          "assessedTaxAmount": "1500.00",
+          "belowThresholdFlag": "否",
+          "assessmentPeriodFrom": "2023-01-01",
+          "assessmentPeriodTo": "2023-12-31",
+          "latestAssessmentFlag": "是"
+        }
+      ]
+    },
+    "isSmallMicroProfitEnterprisePreviousYear": "是"
+  }
+}

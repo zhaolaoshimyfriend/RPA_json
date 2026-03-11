@@ -1,0 +1,26 @@
+{
+  "_fieldRemarks": {
+    "areaCode": "网报区编码",
+    "entrancePlatform": "登录平台：0-电子税务局",
+    "loginPlatform": "目标页面：0-电子税务局首页",
+    "loginType": "登录方式：1-代理登录",
+    "agentTaxNo": "代理登录方式时，此字段为登录需要输入的代理机构账号",
+    "userAccount": "代理登录方式时，此字段为登录需要输入的账号",
+    "loginPassword": "代理登录方式时，此字段为登录需要输入的密码",
+    "loginIdentity": "登录身份：01-法定代表人，02-财务负责人，03-办税员，04-税务代理人（涉税服务人员），05-管理员，06-出口退税人员，07-领票人，08-社保经办人，09-开票员，10-销售人员，31-行政办事员，99-其他人员",
+    "companyName": "被代理企业名称",
+    "companyTaxNo": "被代理企业税号"
+  },
+  "loginInfo": {
+    "areaCode": "210000",
+    "entrancePlatform": "0",
+    "loginPlatform": "0",
+    "loginType": "1",
+    "agentTaxNo": "11111111111111111",
+    "userAccount": "22222222",
+    "loginPassword": "3333333",
+    "loginIdentity": "04",
+    "companyName": "企业名称",
+    "companyTaxNo": "企业名称"
+  }
+}

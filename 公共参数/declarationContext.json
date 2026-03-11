@@ -1,0 +1,14 @@
+{
+  "_fieldRemarks": {
+    "taxPeriodStart": "税款所属期间起",
+    "taxPeriodEnd": "税款所属期间止",
+    "taxpayerId": "纳税人识别号",
+    "taxpayerName": "纳税人名称"
+  },
+  "declarationContext": {
+    "taxPeriodStart": "2025-01-01",
+    "taxPeriodEnd": "2025-12-31",
+    "taxpayerId": "91370200MA3C123456",
+    "taxpayerName": "青岛汉唐世纪信息技术有限公司"
+  }
+}
